@@ -125,7 +125,7 @@ public class MyFlipKart {
         Shipment s = piyush.getCurrentOrder().moveToShipment();
 
         // Printing the shipment details
-        System.out.println("fsfdsdd"+s);
+        System.out.println("dasd"+s);
 
         System.out.println("fsdf");
 
