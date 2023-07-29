@@ -82,11 +82,11 @@ public class MyFlipKart {
 
         // Customer searching for product --> milk
         ArrayList<Product> milkResults = myFlipKart.productsCatalog.searchProduct("Milk");
-        //System.out.println(milkResults);
+        System.out.println(milkResults);
 
         // Customer searching for all the products in grocery
         ArrayList<Product> groceryProducts = myFlipKart.productsCatalog.searchCategory("Groceries");
-        //System.out.println(groceryProducts);
+        System.out.println(groceryProducts);
 
         // Customer adding 10 packets of milk to cart
         Item milkTenPackets = new Item(milkResults.get(0),10);
@@ -97,7 +97,7 @@ public class MyFlipKart {
 
         // Customer searching for another product --> camera
         ArrayList<Product> cameraResults = myFlipKart.productsCatalog.searchProduct("CaMeRa");
-        //System.out.println(cameraResults);
+        System.out.println(cameraResults);
 
         // Customer adding 1 camera to cart
         Item oneCamera = new Item(cameraResults.get(0),1);
@@ -127,9 +127,7 @@ public class MyFlipKart {
         // Printing the shipment details
         System.out.println("fsfdsdd"+s);
 
-        System.out.println("abcdefgh"+s);
 
-        System.out.println("fsdf");
 
 
     }
